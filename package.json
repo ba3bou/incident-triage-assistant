@@ -1,0 +1,11 @@
+{
+  "name": "incident-triage-assistant",
+  "version": "1.0.0",
+  "description": "Lightweight incident-triage assistant: deterministic planning, local actions, safe escalation.",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "pretest": "node scripts/pretest.js",
+    "test": "node tests/run.js",
+    "start": "node src/pipeline.js"
+  }
+}

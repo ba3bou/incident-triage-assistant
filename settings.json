@@ -1,0 +1,6 @@
+{
+  "allow_llm_planning": true,
+  "allow_llm_response_drafting": true,
+  "max_response_chars": 500,
+  "allowed_output_fields": ["task_id", "status", "plan", "action_trace", "response", "needs_review", "review_reasons"]
+}

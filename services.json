@@ -1,0 +1,4 @@
+[
+  {"service": "payments-api", "owner_team": "payments", "error_rate_5m": 12.4, "latency_p95_ms": 920, "last_deploy": "2026-05-28T08:10:00Z", "recent_errors": ["timeout to ledger dependency", "database connection pool exhausted"]},
+  {"service": "auth-worker", "owner_team": "identity", "error_rate_5m": 18.7, "latency_p95_ms": 300, "last_deploy": "2026-05-28T07:50:00Z", "recent_errors": ["message broker reconnect loop", "worker heartbeat stale"]}
+]

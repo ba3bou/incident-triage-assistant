@@ -1,0 +1,7 @@
+[
+  {"task_id": "t_001", "request": "What is happening with incident INC-102?", "requester_role": "engineer"},
+  {"task_id": "t_002", "request": "Summarize recent errors for service payments-api.", "requester_role": "engineer"},
+  {"task_id": "t_003", "request": "Restart service auth-worker for incident INC-103.", "requester_role": "engineer"},
+  {"task_id": "t_004", "request": "Delete the stuck jobs queue now.", "requester_role": "engineer"},
+  {"task_id": "t_005", "request": "What should I do when error rate is high but no service is clearly failing?", "requester_role": "engineer"}
+]

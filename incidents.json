@@ -1,0 +1,4 @@
+[
+  {"incident_id": "INC-102", "service": "payments-api", "severity": "medium", "status": "investigating", "symptom": "Spike in 5xx responses", "created_at": "2026-05-28T09:00:00Z"},
+  {"incident_id": "INC-103", "service": "auth-worker", "severity": "high", "status": "identified", "symptom": "Workers stopped processing login events", "created_at": "2026-05-28T09:20:00Z"}
+]

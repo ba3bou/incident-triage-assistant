@@ -1,0 +1,11 @@
+{
+  "guidance": {
+    "high_error_rate_no_clear_service": "Check shared dependencies, recent deploys, traffic spikes, and incident correlations before taking action. Escalate to on-call lead if no likely culprit is identified."
+  },
+  "allowed_actions": ["get_incident", "get_service", "summarize_service_errors", "restart_service"],
+  "restricted_actions": ["delete_queue", "drop_database", "disable_alerting"],
+  "action_rules": {
+    "restart_service": {"allowed_incident_statuses": ["identified", "mitigating"], "allowed_requester_roles": ["engineer", "manager"]}
+  },
+  "escalation_message": "This request cannot be completed automatically. Please escalate for manual review."
+}
